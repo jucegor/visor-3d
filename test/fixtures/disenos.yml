@@ -1,0 +1,27 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  numero_proyecto: MyString
+  cliente: MyString
+  nombre_proyecto: MyString
+  revision: MyString
+  responsable: MyString
+  semana: MyString
+  estatus: MyString
+  linea: MyString
+  autodesk_link: MyString
+  ruta_carpeta: MyString
+  confirmacion_dynamics: false
+
+two:
+  numero_proyecto: MyString
+  cliente: MyString
+  nombre_proyecto: MyString
+  revision: MyString
+  responsable: MyString
+  semana: MyString
+  estatus: MyString
+  linea: MyString
+  autodesk_link: MyString
+  ruta_carpeta: MyString
+  confirmacion_dynamics: false

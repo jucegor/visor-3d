@@ -1,0 +1,2 @@
+class Diseno < ApplicationRecord
+end
