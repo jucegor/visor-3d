@@ -1,0 +1,25 @@
+<%= form_with model: @diseno do |f| %>
+  <%= f.label :numero_proyecto %>
+  <%= f.text_field :numero_proyecto %>
+  <%= f.label :cliente %>
+  <%= f.text_field :cliente  %>
+  <%= f.label :nombre_proyecto %>
+  <%= f.text_field :nombre_proyecto %>
+  <%= f.label :revision %>
+  <%= f.text_field :revision %>
+  <%= f.label :responsable %>
+  <%= f.text_field :responsable %>
+  <%= f.label :semana %>
+  <%= f.text_field :semana %>
+  <%= f.label :estatus %>
+  <%= f.select :estatus, [['Activo', 'Activo'],['Inactivo', 'Inactivo']] %>
+  <%= f.label :linea %>
+  <%= f.text_field :linea %>
+  <%= f.label :autodesk_link %>
+  <%= f.text_field :autodesk_link %>
+  <%= f.label :ruta_carpeta %>
+  <%= f.text_field :ruta_carpeta %>
+  <%= f.label :confirmacion_dynamics %>
+  <%= f.select :confirmacion_dynamics, [['Si', true],['No', false]] %>
+  <%= f.submit %>
+<% end %>

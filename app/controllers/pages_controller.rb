@@ -1,5 +1,5 @@
 class PagesController < ApplicationController
-  def visor3d
-    @greeting = 'Hello from about method'
+  def home
+    @greeting = 'Hello from home method'
   end
 end
